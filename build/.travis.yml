@@ -1,4 +1,5 @@
 language: c
+sudo: enabled
 cd build
 make clean
 make
