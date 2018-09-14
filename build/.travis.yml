@@ -1,6 +1,6 @@
 language: c
 sudo: enabled
 script:
-cd build
-make clean
-make
+- cd build
+- make clean
+- make
