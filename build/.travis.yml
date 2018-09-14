@@ -4,11 +4,11 @@ sudo: enabled
 # Should fix the build issue
 branches:
   only:
-  - gh-pages
-  - /.*/
+    - gh-pages
+    - /.*/
 
 jobs:
   script:
-  - cd build
-  - make clean
-  - make
+    - cd build
+    - make clean
+    - make
